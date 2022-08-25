@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <>
             <div className='container'>
-                <Link to='/stadistics'>Ir a Detalle</Link>
+                <Link to='/stadistics'>Ir a las estadisticas</Link>
                 <Link to='/detalle'>Ir a Persona</Link>
                 <Link to='/contact'>ir a contacto</Link>
 
