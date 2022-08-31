@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export default function Contacto() {
 
     return (
-        <div class="one-half column">
+        <div class="one-half column ">
             <h2>Contactenos</h2>
             <Form >
               <p>
@@ -34,7 +34,7 @@ export default function Contacto() {
                 </p>
                 
                 <Button variant="primary" type="submit" >
-                    Agregar cita
+                    Agregar persona
                 </Button>
             </Form>
 

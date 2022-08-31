@@ -9,18 +9,24 @@ export default function Home() {
     return (
         <>
             <div className='container'>
-                <Link to='/stadistics'>Ir a las estadisticas</Link>
-                <Link to='/detalle'>Ir a Persona</Link>
-                <Link to='/contact'>ir a contacto</Link>
+                <p>
+                <Link to='/stadistics'>Estadisticas</Link>
+                </p>
+                <p>
+                <Link to='/detalle'>Persona</Link>
+                </p>
+                <p>
+                <Link to='/contact'> Contacto</Link>
+                </p>
 
                 <div className='scroll'> {Personas.map((persona) =>
                     <div class="one-half column">
                         <><div class="cita">
                             <p>
-                                <span> {persona.nombre} {persona.apellido}</span>
+                                <span class='nombre'> {persona.nombre} {persona.apellido}</span>
                             </p>
                             <Link to={`/detalle/${persona.id}`}>
-                                <button class="button elimnar u-full-width">Ir al detalle de {persona.nombre} {persona.apellido}</button>
+                                <button class="button elimnar u-full-width">Detalle de {persona.nombre} {persona.apellido}</button>
                             </Link>
                         </div></>
                     </div>

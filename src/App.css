@@ -43,4 +43,37 @@ body{
   font-family: sans-serif;
   min-height: 100%;
   padding-bottom: 5rem;
+  text-align: center;
+}
+
+
+.nombre{
+  font-size:large;
+  font-weight:bold;
+}
+
+.person{
+  font-weight: 500;
+  font-size:xx-large;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.person2{
+  font-weight: 350;
+  font-size:large;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.person3{
+  font-weight: 200;
+  font-size:medium;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.person4{
+  font-weight: 50;
+  font-size:small;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.stats{
+  font-weight: bold;
 }

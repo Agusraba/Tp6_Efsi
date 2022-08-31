@@ -36,9 +36,9 @@ export default function Stadistics() {
   });
   return (
     <>
-      <p>La cantidad de personas mayores a 35 años son {contadorE}</p>
-      <p>La persona mayor es {personaMa}, con una edad de {edadMayor} años</p>
-      <p>La persona menor es {personaMe}, con una edad de {edadMenor} años</p>
+      <p>La cantidad de personas mayores a 35 años son <a class='stats'>{contadorE}</a></p>
+      <p>La persona mayor es <a class='stats'>{personaMa}</a>, con una edad de <a class='stats'>{edadMayor}</a> años</p>
+      <p>La persona menor es <a class='stats'>{personaMe}</a>, con una edad de <a class='stats'>{edadMenor}</a> años</p>
 
       <Link to='/'>Regresar a la home</Link>
     </>

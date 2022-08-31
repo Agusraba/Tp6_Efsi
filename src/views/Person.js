@@ -13,10 +13,10 @@ export default function Detalle() {
 
   return (
     <>
-    <p>Nombre: {personaElegida.nombre}</p>
-    <p>Apellido: {personaElegida.apellido}</p>
-    <p>Email: {personaElegida.email}</p>
-    <p>Edad: {personaElegida.edad}</p>
+    <p className='person'>Nombre: {personaElegida.nombre}</p>
+    <p className='person2'>Apellido: {personaElegida.apellido}</p>
+    <p className='person3'>Email: {personaElegida.email}</p>
+    <p className='person4'>Edad: {personaElegida.edad}</p>
 
 
     <Link to='/'>Regresar a la home</Link>
